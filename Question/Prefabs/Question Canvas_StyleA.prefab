@@ -146,6 +146,7 @@ GameObject:
   - component: {fileID: 8185847595265195741}
   - component: {fileID: 1437142287764982029}
   - component: {fileID: 6882377561601942102}
+  - component: {fileID: 1125279794158667889}
   m_Layer: 5
   m_Name: Options Scroll View
   m_TagString: Untagged
@@ -243,6 +244,26 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1125279794158667889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905982339536425002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26e86206f3957414598e67b8d2c6c320, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _colliderDepth: 0.008
+  _colliderForwardOffset: 0.004
+  _pokeCooldown: 0.4
+  _enableHoverBridge: 1
+  _pokeHapticAmplitude: 0.3
+  _pokeHapticDuration: 0.05
+  _hoverHapticAmplitude: 0.1
+  _hoverHapticDuration: 0.02
 --- !u!1 &1018214255096028890
 GameObject:
   m_ObjectHideFlags: 0
@@ -836,7 +857,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -11.718, y: 18.491}
+  m_AnchoredPosition: {x: -11.718018, y: 18.490997}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &4846329722825240689
@@ -884,7 +905,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &4452696108095254964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1218,6 +1239,7 @@ GameObject:
   - component: {fileID: 4497302128097378468}
   - component: {fileID: 1964754548005630724}
   - component: {fileID: 8911515834163241182}
+  - component: {fileID: 289676931189929044}
   m_Layer: 5
   m_Name: BT_Reset
   m_TagString: Untagged
@@ -1327,6 +1349,26 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &289676931189929044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3101538337600531014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26e86206f3957414598e67b8d2c6c320, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _colliderDepth: 0.008
+  _colliderForwardOffset: 0.004
+  _pokeCooldown: 0.4
+  _enableHoverBridge: 1
+  _pokeHapticAmplitude: 0.3
+  _pokeHapticDuration: 0.05
+  _hoverHapticAmplitude: 0.1
+  _hoverHapticDuration: 0.02
 --- !u!1 &3147808849272273186
 GameObject:
   m_ObjectHideFlags: 0
@@ -1764,6 +1806,7 @@ GameObject:
   - component: {fileID: 9039732058198708922}
   - component: {fileID: 2116806037954826080}
   - component: {fileID: 3423309675126058379}
+  - component: {fileID: 7331745353748161862}
   m_Layer: 5
   m_Name: BT_Submit
   m_TagString: Untagged
@@ -1873,6 +1916,26 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &7331745353748161862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5567222009301353422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26e86206f3957414598e67b8d2c6c320, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _colliderDepth: 0.008
+  _colliderForwardOffset: 0.004
+  _pokeCooldown: 0.4
+  _enableHoverBridge: 1
+  _pokeHapticAmplitude: 0.3
+  _pokeHapticDuration: 0.05
+  _hoverHapticAmplitude: 0.1
+  _hoverHapticDuration: 0.02
 --- !u!1 &5590239001068913216
 GameObject:
   m_ObjectHideFlags: 0
@@ -2163,8 +2226,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8807058855036037036}
   m_HandleRect: {fileID: 2244672031266735138}
   m_Direction: 2
-  m_Value: 0.999996
-  m_Size: 0.5222222
+  m_Value: 0.99999243
+  m_Size: 0.5222223
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2289,7 +2352,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2831228211327129261}
   m_HandleRect: {fileID: 5451529961212259615}
   m_Direction: 0
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -2458,6 +2521,7 @@ GameObject:
   - component: {fileID: 4592207830655682167}
   - component: {fileID: 2719524394921730147}
   - component: {fileID: 2659149341936420009}
+  - component: {fileID: 5632176572869440470}
   m_Layer: 5
   m_Name: BT_Close
   m_TagString: Untagged
@@ -2567,6 +2631,26 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &5632176572869440470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8808796279682652118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26e86206f3957414598e67b8d2c6c320, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _colliderDepth: 0.008
+  _colliderForwardOffset: 0.004
+  _pokeCooldown: 0.4
+  _enableHoverBridge: 1
+  _pokeHapticAmplitude: 0.3
+  _pokeHapticDuration: 0.05
+  _hoverHapticAmplitude: 0.1
+  _hoverHapticDuration: 0.02
 --- !u!1 &8837545038470497524
 GameObject:
   m_ObjectHideFlags: 0
