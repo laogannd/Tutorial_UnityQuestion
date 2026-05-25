@@ -84,7 +84,7 @@ Hand Rigidbody 碰到 BoxCollider
   → UIPokeBridge.OnHandTouch
   → ExecuteEvents.Execute<IPointerClickHandler>
   → OptionButton.OnPointerClick（触发选中逻辑）
-```
+```w
 
 ### 配置步骤
 

@@ -459,8 +459,16 @@ namespace VRQuestion
             if (_questionImage != null)
             {
                 bool hasImage = question.QuestionImage != null;
-                _questionImage.gameObject.SetActive(hasImage);
-                if (hasImage) _questionImage.sprite = question.QuestionImage;
+                if (hasImage)
+                {
+                    _questionImage.sprite = question.QuestionImage;
+                    _questionImage.color = Color.white;
+                }
+                else
+                {
+                    _questionImage.sprite = null;
+                    _questionImage.color = Color.clear;
+                }
             }
             if (_explanationLabel != null)
             {
